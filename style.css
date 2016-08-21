@@ -1,7 +1,7 @@
 h1{
 	color: black;
 	font-family: 'Pacifico', sans-serif;
-	padding: 50px;
+	padding: 0px;
 	border: 10px solid #22313f;
 	text-align: center;
 }
@@ -9,7 +9,7 @@ h1{
 h2{
 	color: #505050;
 	font-size: 1.2em;
-	padding-top: 30px
+	padding-top: 0px
 }
 
 p{
@@ -18,26 +18,35 @@ p{
 }
 
 body{
-	font-family: 'Arimo', sans-serif;
+	/*background-attachment: fixed;
+  	background-image: url(splash_image.jpeg);
+  	background-position: center center;
+  	background-repeat: no-repeat; */
+  	background-size: cover;font-family: 'Arimo', sans-serif;
 	color: #505050;
 	background-color: #ececec;
-	padding:5px 50px;
+	padding:0px 0px;
 	margin: auto;
-	width: 75%;
+	width: 80%;
 }
 #abstract {
 	background-color: #6897bb;
 	margin-right: auto;
-	margin-left: 4px;
-	width: 450px;
-	display: inline-block;
+	margin-left: 5px;
+	width: 48%;
+	float: left;
 }	
-.mission-statement {
+#mission-statement {
 	background-color: #8bbbce;
 	margin-left: auto;
-	margin-right: 4px;
-	width: 450px;
-	display: inline-block;
+	margin-right: 5px;
+	width: 48%;
+	float: right;
+}
+
+#links {
+	clear:both;
+	padding: 5px;
 }
 
 #title {
