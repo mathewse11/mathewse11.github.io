@@ -2,21 +2,26 @@
 <html>
 	<head>
 		<title>Emmy Mathews Resume</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">	
 	</head>
 
 	<body>
 	
-		<h1>Emmy Mathews' Resume</h1>
+		<h1 id="title">Emmy Mathews' Resume</h1>
 
-		<h2>Abstract</h2>
+		<div id="abstract"><h2>Abstract</h2>
 
-		<p>Emmy is an equity research analyst and a believer in financial capability for all.</p>
+		<p>Emmy is an equity research analyst and a believer in financial capability for all.</p></div>
 
-		<h2>Mission Statement</h2>
+		<div class="mission-statement">
 
-		<p>In her day job, she researches <strong>small-cap</strong> <em>Technology</em> companies and recommends investments.</p>
+			<h2>Mission Statement</h2>
 
-		<p></p>
+			<p>In her <span id="day-emphasis"> day</span> job, she researches <strong>small-cap</strong> <em>Technology</em> companies and recommends investments.</p>
+
+		</div>
 
 		<a href="http://www.brownadvisory.com" title="BrownAdvisory.com" target="_blank">Learn more about Brown Advisory</a>
 
@@ -28,27 +33,18 @@
 
 		<!-- <img src="https://betamore.com/wp-content/uploads/2013/04/logo.png" alt="Betamore Logo"/> -->
 
-		<br>
-		<br>
-
-		<img src="Mathews_headshot.jpg" alt="Mathews headshot"/>
 
 		<!-- To Do - add more stuff here -->
 
-		<p>Things I like</p>
-		<ul>
-			<li>Investing</li>
-			<li>Running</li>
-			<li>Travel</li>
-		</ul>
 
 		<br>
 
 		<p>Things I like</p>
-		<ol>
+		<ul class="list">
 			<li> Investing </li>
 			<li> <a href="http://www.charmcityrun.com" target="_blank">Running </a> </li>
-		</ol>
+			<li id="travel">Travel</li>
+		</ul>
 
 		<table>
   			<tr>
@@ -60,10 +56,15 @@
     			<td>June 2013 - Present</td>
   			</tr>
   			<tr>
-    			<td>Morgan Stanley</td>
+    			<td>Morgan Stanley &copy</td>
     			<td>June 2011 - June 2013</td>
   			</tr>
 		</table>
+
+		<br>
+		<br>
+
+		<img src="Mathews_headshot.jpg" alt="Mathews headshot"/>
 	
 	</body>
 </html>

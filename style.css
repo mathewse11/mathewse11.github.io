@@ -1,0 +1,73 @@
+h1{
+	color: black;
+	font-family: 'Pacifico', sans-serif;
+	padding: 50px;
+	border: 10px solid #22313f;
+	text-align: center;
+}
+
+h2{
+	color: #505050;
+	font-size: 1.2em;
+	padding-top: 30px
+}
+
+p{
+	color: #505050;
+	font-style: italic;
+}
+
+body{
+	font-family: 'Arimo', sans-serif;
+	color: #505050;
+	background-color: #ececec;
+	padding:5px 50px;
+	margin: auto;
+	width: 75%;
+}
+#abstract {
+	background-color: #6897bb;
+	margin-right: auto;
+	margin-left: 4px;
+	width: 450px;
+	display: inline-block;
+}	
+.mission-statement {
+	background-color: #8bbbce;
+	margin-left: auto;
+	margin-right: 4px;
+	width: 450px;
+	display: inline-block;
+}
+
+#title {
+	background-color: #6c7a89;
+}
+
+.list {
+	font-size: .75em;
+	margin-bottom: 100px;
+}
+
+#travel {
+	font-style: italic;
+}
+
+#day-emphasis {
+	text-decoration: underline;
+	color: yellow;
+}
+
+table {
+	border-collapse: collapse;
+	padding: 10%;
+} 
+
+td {
+	border: 7px solid #6c7a89;
+	padding: 25px;
+}
+
+th {
+	border: 10px solid #22313f;
+}
